@@ -2,6 +2,9 @@ body {
     width: 100%;
     font-size: 14px;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 .container {
     margin-top: 50px;
@@ -21,4 +24,10 @@ body {
 
 .buttons {
     padding: 10px 10px 10px 0;
+}
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
 }
